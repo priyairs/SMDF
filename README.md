@@ -235,3 +235,19 @@ COPY . /usr/share/nginx/html
 docker build -t mywebimage .
 docker run -d -p 8080:80 mywebimage
 docker ps
+# 🔸 **docker**
+
+```
+Write the Docker file and create the image and  access the image in localhost
+
+mkdir mywebapp
+cd mywebapp
+
+echo "<h1>Hello from Docker!</h1>" > index.html
+nano Dockerfile
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+docker build -t mywebimage .
+docker run -d -p 8080:80 mywebimage
+docker ps
+```
