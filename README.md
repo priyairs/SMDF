@@ -1,13 +1,5 @@
 # SMDF
-#Sure — here’s the **exact copy-pasteable** content for those 4 parts in the same how-to template you use. Paste these into your repo README or separate `.md` files. I included PlantUML text (component + sequence), functional & non-functional lists, Jenkins Freestyle GUI steps, and Docker-based Nagios instructions — all ready to copy.
-
----
-
-# ----------------------------------------------------------
-
-# ✅ **SECTION — HOSPITAL + COURSE RESERVATION + JENKINS + NAGIOS**
-
-# ----------------------------------------------------------
+---------------------------------------------------------
 
 # 🔸 **A. Sequence + Component Diagram — Hospital Management System**
 
@@ -175,15 +167,6 @@ Build & package Courses Web Application (Maven)
 * Click "Build Now"
 * Monitor Console Output to validate build
 ```
-
-### **Troubleshooting**
-
-```
-- If Maven not found on agent: Manage Jenkins -> Global Tool Configuration -> add Maven or use project's wrapper (mvnw).
-- If Git authentication fails: add Credentials (username/password or SSH key) and select in SCM section.
-- If build fails: check console logs, fix compilation/test errors, re-run.
-```
-
 ---
 # ----------------------------------------------------------
 
